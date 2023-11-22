@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
             let link =  task.getAttribute('data-link')
             let linkWebSite = link
             if(link){
-                window.location.href = linkWebSite
+                //window.location.href = linkWebSite
+                window.open(link);
             } else {
                 console.log('not found 404')
             }
